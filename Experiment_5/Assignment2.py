@@ -1,6 +1,5 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
@@ -13,8 +12,7 @@ data = {
     "Attendance": [50, 55, 60, 65, 70, 72, 75, 80, 85, 90,
                 52, 58, 63, 68, 73, 78, 82, 87, 92, 95],
 
-    "Pass": [0, 0, 0, 0, 1, 1, 1, 1, 1, 1,
-                0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+    "Pass": [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
 }
 
 df = pd.DataFrame(data)

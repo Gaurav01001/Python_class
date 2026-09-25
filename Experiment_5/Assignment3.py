@@ -6,18 +6,18 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_curve, roc_auc_score
 
 data = {
-    "Study_Hours": [
-        1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+    "Study_hours": [
+        1.5, 2, 3, 4, 5, 6, 7, 8, 9, 10,
         2, 3, 4, 5, 6, 7, 8, 9, 10, 11
     ],
 
     "Attendance": [
-        50, 55, 60, 65, 70, 72, 75, 80, 85, 90,
+        48, 55, 60, 65, 70, 72, 75, 80, 85, 90,
         52, 58, 63, 68, 73, 78, 82, 87, 92, 95
     ],
 
-    "Previous_Exam_Score": [
-        35, 40, 42, 48, 55, 60, 65, 70, 78, 85,
+    "Previous_exam_Score": [
+        32, 40, 42, 48, 55, 60, 65, 70, 78, 85,
         38, 44, 50, 58, 63, 68, 75, 80, 88, 92
     ],
 
